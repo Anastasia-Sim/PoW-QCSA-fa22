@@ -28,6 +28,8 @@ Using the hash created above, we integrate with Grover's search to find a far mo
 [Quantum Proof-of-Work](https://github.com/Anastasia-Sim/PoW-QCSA-fa22/blob/main/Quantum_PoW.ipynb)
 
 # Comparison
+It is unviable to directly benchmark the performance of our Grover search implementation against its classical equivalent, due to the small scale of our circuit (resulting in the theoretical speedup being eclipsed by overhead).
+However, as a general benchmark, here's how long bitcoin has set their proof-of-work problem to take, and how long Grover search would take to solve the same problem.
 ![Screenshot](pictures/findings.png)
 
 # Extras
