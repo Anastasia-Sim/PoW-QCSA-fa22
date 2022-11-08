@@ -28,6 +28,8 @@ Using the hash created above, we integrate with Grover's search to find a far mo
 [Quantum Proof-of-Work](https://github.com/Anastasia-Sim/PoW-QCSA-fa22/blob/main/Quantum_PoW.ipynb)
 
 # Comparison
+It is unviable to directly benchmark the performance of our Grover search implementation against its classical equivalent, due to the small scale of our circuit (resulting in the theoretical speedup being eclipsed by overhead).
+However, as a general benchmark, here's how long bitcoin has set their proof-of-work problem to take, and how long Grover search would take to solve the same problem.
 ![Screenshot](pictures/findings.png)
 
 # Extras
@@ -35,3 +37,11 @@ Though these results are exciting, we also tried our hand at a more realistic qu
 
 # Thank You!
 Big shoutout to the UCLA QCSA for organizing! This was a lot of fun!
+
+## Sources referenced in this project
+https://forkast.news/proof-of-work-what-is-it-bitcoin-halving/ \
+https://www.youtube.com/watch?v=bBC-nXj3Ng4 (3Blue1Brown) \
+https://www.youtube.com/watch?v=3EUAcxhuoU4 (Binance Academy) \
+https://www.youtube.com/watch?v=9V1bipPkCTU (Khan Academy) \
+https://blog.gameoflife.co/implementing-a-simple-proof-of-work-algorithm-for-the-blockchain-bdcd50faac18 \
+https://arxiv.org/pdf/2202.10982.pdf 
