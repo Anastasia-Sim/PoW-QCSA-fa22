@@ -17,11 +17,12 @@ Compare Grover’s search with classical “mining” algorithms in obtaining pr
 # Classical Proof-of-Work
 Classically, proof-of-work is an algorithm that ensures entities have undertaken enough computational work before adding blocks & completing transactions. An example of such an algorithm is SHA256 Hash Algorithm.
 
-In our implementation, we use a parity of our our own hash that utilizes 4 bits to encode information and utilise brute force. The link to our notebook: 
-[Classical Proof-of_Work](https://github.com/Anastasia-Sim/PoW-QCSA-fa22/blob/main/Classical_PoW.ipynb)
+In our implementation, we use a parity of our our own hash that utilizes 4 bits to encode information and utilise brute force. The link to our notebook is 
+[here](https://github.com/Anastasia-Sim/PoW-QCSA-fa22/blob/main/Classical_PoW.ipynb).
 
 # Quantum Implementation
 [Quantum Hash](https://github.com/Anastasia-Sim/PoW-QCSA-fa22/blob/main/QuantumHash.ipynb)
+
 [Quantum Proof-of-Work](https://github.com/Anastasia-Sim/PoW-QCSA-fa22/blob/main/Quantum_PoW.ipynb)
 
 # Comparison
