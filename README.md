@@ -21,11 +21,17 @@ In our implementation, we use a parity of our our own hash that utilizes 4 bits 
 [here](https://github.com/Anastasia-Sim/PoW-QCSA-fa22/blob/main/Classical_PoW.ipynb).
 
 # Quantum Implementation
+One of the challenges in comparing a classical vs. quantum proof of work algorithm is creating a hash function implementable both in classical and quantum terms. Here is our take:
 [Quantum Hash](https://github.com/Anastasia-Sim/PoW-QCSA-fa22/blob/main/QuantumHash.ipynb)
 
+Using the hash created above, we integrate with Grover's search to find a far more superior search algorithm than classical brute force:
 [Quantum Proof-of-Work](https://github.com/Anastasia-Sim/PoW-QCSA-fa22/blob/main/Quantum_PoW.ipynb)
 
 # Comparison
 ![Screenshot](pictures/findings.png)
 
-# Conclusion
+# Extras
+Though these results are exciting, we also tried our hand at a more realistic quantum proof of work circuit that involved nonces (https://coincentral.com/what-is-a-nonce-proof-of-work/). Though we got close to a working implementation, we did not have enough resources at hand to complete. Thus, we have linked it in the extras folder as extra goodies from our quantum exploits!
+
+# Thank You!
+Big shoutout to the UCLA QCSA for organizing! This was a lot of fun!
