@@ -11,7 +11,7 @@ Compare Grover’s search with classical “mining” algorithms in obtaining pr
 ## 📼 Presentation Resources:
 [Slides](https://docs.google.com/presentation/d/13MC5ZwSvS7hK2QC42qkEkkZD4qoqk9ATySAjBLXjt84/edit?usp=sharing)
 
-[Video}(https://drive.google.com/file/d/1cmKet5NuLsIajN_MCnOD0ieizNz3-H31/view?usp=sharing)
+[Video](https://drive.google.com/file/d/1cmKet5NuLsIajN_MCnOD0ieizNz3-H31/view?usp=sharing)
 
 ## 🗺️ Roadmap
 1. Classical Proof-of-Work
